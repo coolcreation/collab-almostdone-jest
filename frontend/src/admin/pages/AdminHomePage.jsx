@@ -1,0 +1,19 @@
+import React from 'react'
+import AdminNavbar from '../components/AdminNavbar';
+
+// This page WILL NEED TO change browser tab title to 'ADMIN : Scotts Collision Repair'
+
+export default function AdminHomePage() {
+  return (
+    <>
+      <AdminNavbar />
+
+      <div className='my-5 main-minimum-vertical-space'>
+        <h1 class="alert alert-primary col-11 col-lg-8 mx-auto text-center fs-3" role="alert">
+            Admin Home Page
+        </h1>
+      </div>
+
+    </>
+  )
+}  
