@@ -117,3 +117,5 @@ npm start
 **7. MongoDB uses `ObjectID` instead of integer, which is auto generated**
 - It looks something like this, but always random: `ObjectId("507f1f77bcf86cd799439011")`
 - **GET** by id, **PUT** can be implemented as `http://localhost:8000/employees/507f1f77bcf86cd799439011`
+  
+**8. TBD - NEW STUFF**
